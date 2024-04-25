@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.playfair{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+.roboto{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.header{
+    position: fixed;    
+    top: 0;
+    z-index: -1;
+    width: 33%; 
+    height: 100vh;
+    background-image: url(/img/heart.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.header img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+@media only screen and (max-width: 768px) {
+    .header{
+        position: relative;
+        width: 100%;
+    }
+}
+
